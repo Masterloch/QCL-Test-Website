@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quality Chemical Laboratories</title>
+<link href="../css/testQCL.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+<header>
+    <div class="primary_header">
+     <img src ="../images/header_logo.png">
+    </div>
+    <nav class="secondary_header">
+      <ul>
+		<li><a href = "mainQCL.html">HOME</a></li>
+        <li><a href = "aboutQCL.html">ABOUT</a></li>
+        <li><a href = "instrumentationQCL.html">INSTRUMENTS</a></li>
+        <li><a href = "servicesQCL.html">SERVICES</a></li>
+        <li><a href = "careersQCL.html">CAREERS</a></li>
+        <li><a href = "contactQCL.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class = "low_header">
+    	<p><br></p>
+    </div>
+  </header>
+
+<div class ="main_body">
+		<div class = "test_side_bar"> 
+			<ul>
+				<li style = "padding-top: 20%;"><a href = "servicesQCL.html">View Services</a></li>
+				<li><a href = "submit_sampleQCL.html">Submit a Sample</a></li>
+				<li><a href = "quoteQCL.html">Request a <br>Quote</a></li>
+				<li><a href = "http://www.pharmareferencestandards.com/">View Reference Standards</a></li>
+				<li><a href = "news_and_eventsQCL.html">News and Events</a></li>
+				<li style = "padding-bottom: 20%;"><a href = "contactQCL.html">Contact Us</a></li>
+			</ul>
+  		</div>
+  		<img src = "../images/main_logo.jpg" style = "float: left;clear: left; margin-top: 5%; margin-left: 0%; margin-right: -5%; margin-bottom: 4%;">
+	<div class = "centered_main_body">
+  		<h1 style = "text-align: center;">Request a Quote</h1>
+   		<p style = "text-align: center; border-bottom: 1px solid black; padding-bottom: 3%;">Please fill out the form below to request a quote from QCL.  <br> You should expect a reply within two business days.</p>
+   		
+   		<div style = "width: 50%; display: inline-block; overflow: hidden;">
+   		<div>
+   		<form action = "quote_submission.php" method="post">
+   		<br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Name: <input type = "text" name = "name"></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">E-mail: <input type = "text" name = "email" style = ""></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Company: <input type = "text" name = "company" style = ""></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Phone: <input type = "text" name = "phone" style = ""></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Address: <input type = "text" name = "address" style = "margin-top: 1%;"></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">City: <input type = "text" name = "City" style = "margin-top: 1%;"></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">State: <input type = "text" name = "State" style = "margin-top: 1%;"></span> <br>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Zip Code: <input type = "text" name = "Zip" style = "margin-top: 1%;"></span>
+   			<span style = "float: right; clear: right; margin-right: 20%;">Material: <input type = "text" name = "material" style = "margin-top: 1%;"><br><br></span>
+   			
+				<div style = "float: right; clear: right; margin-right: 20%;">
+				Type of Testing: <br><br>
+					<span style = ""><input type = "checkbox" id = "USP" name = "checkBox[]" value = "USP"></span>
+						<label for= "USP">USP</label>
+					<span style = ""><input type = "checkbox" id = "EP" name = "checkBox[]" value = "EP"></span>
+						<label for= "EP">EP</label>
+					<span style = ""><input type = "checkbox" id = "JP" name = "checkBox[]" value = "JP"></span>
+						<label for= "JP">JP</label>
+					<span style = ""><input type = "checkbox" id = "ACS" name = "checkBox[]" value = "ACS"></span>
+						<label for= "ACS">ACS</label>
+					<span style = ""><input type = "checkbox" id = "FCC" name = "checkBox[]" value = "FCC"></span>
+						<label for= "FCC">FCC<br></label>
+					<span style = ""><input type = "checkbox" id = "other" name = "checkbox[]" value = "other"></span>
+						<label for= "other">Other (Development, Validation, Vendor, etc) <br><br></label>
+						
+					<input type ="radio" id = "full_mono" name = "radio1" value = "Full Monograph">
+						<label for = "full_mono">Full Monograph <br></label>
+					<input type="radio" id = "other_radio" name="radio1" value = "Other Testing">
+						<label>Other (Please Specify)</label>
+					<br><input type = "text" name = "other_test"><br>
+					
+					<br>Turn Around Time:<br>
+					<input type = "radio" id = "standard_turn" name = "radio" value = "Standard Turn Around">
+						<label for = "standard_turn">Standard (10-15 Business Days)<br></label>
+					<input type = "radio" id = "rush_turn" name = "radio" value = "Rush Turn Around">
+						<label for = "rush_turn">Rush<br></label>
+				</div>
+   			<span style = "float: right; clear: right; margin-right: 20%;"><br><br>Comments: <br><textarea rows = "6" cols = "40" name="txtArea"></textarea></span><br>
+   			<input type = "image" name = "submit" src = "../images/submit_button.jpg" style = "float: right; clear: right; margin-right: 20%;">
+   		</form></div>
+		</div>
+		
+		
+   		<div style = "width: 45%; display: inline-block; overflow: hidden;">
+   		<img src = "../images/requestquote.jpg" style = "width: 94%; border: 1px solid black; margin-top: 5%; margin-left: 2%; box-shadow: 0px 0px 10px 2px; border-radius: 20px;">
+   		<img src = "../images/contant_us_picture.png" style = "width: 30%; margin-top: 5%;">
+   			<p><strong>Raw Materials: </strong></p>
+   			<p>Cathy Hudson<br>Direct Line: (910) 202-6619 <br> Cathy.Hudson@qualitychemlabs.com <br><br>
+   			Phil Toret <br>Direct Line: (910) 338-3190 <br> Phil.Toret@qualitychemlabs.com</p>
+   			<br><p><strong>Finished Products and Stability </strong></p>
+   			<p>Michael D. Barron, MBA <br>Direct/Mobile (919) 522-9302<br> Michael.Barron@qualitychemlabs.com <br><br>
+   			Rodney P. Robbins <br> Office: (910) 859-8190 <br> Rodney.Robbins@qualitychemlabs.com</p>
+   		</div>
+   
+    </div>
+</div>
+
+</div> <!-- End main Body Div -->
+
+<div class = "footer">
+	<div class = "footer_info">
+	<ul>
+	  <li>&copy; 2012 - 2013 Quality Chemical Labs</li>
+	  <li><strong>Phone:</strong> 910-796-3441</li>
+		<li><strong>Fax:</strong> 910-796-3425</li>
+		<li>3220 Corporate Drive, Wilmington NC 28405</li>
+		<li>3400 Enterprise Drive, Wilmington NC 28405</li>
+	</ul>
+	</div>
+	<div class = "footer_info_links">
+	<table class = "footer_table">
+		<tr>
+			<td class = "row_left"><a href = "mainQCL.html">Home</a></td>
+			<td class = "row_right"><a href = "aboutQCL.html">About</a></td>
+		</tr>
+		<tr>
+			<td class = "row_left"><a href = "servicesQCL.html">Services</a></td>
+			<td class = "row_right"><a href = "instrumentationQCL.html">Instrumentation</a></td>
+		</tr>
+		<tr>
+			<td class = "row_left"><a href = "careersQCL.html">Careers</a></td>
+			<td class = "row_right"><a href = "contactQCL.html">Contact</a></td>
+		</tr>
+		<tr>
+			<td class = "row_left"><a href = "quoteQCL.html">Request a Quote</a></td>
+			<td class = "row_right"><a href = "submit_sampleQCL.html">Submit a Sample</a></td>
+		</tr>
+	</table>
+	</div>
+	<div class = "footer_logo">
+		<img src = "../images/footer_logo.png">
+	</div>
+	</div>
+</body>
+</html>
